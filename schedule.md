@@ -5,9 +5,9 @@ Dự đoán doanh thu rạp chiếu phim: Tiếp cận bằng học máy dựa t
 | Họ Tên                    | MSSV             | Email/Phone             |
 |---------------------------|------------------|-------------------------|
 | Nguyễn Ngọc Trường Chinh  | 3119410046       | nntchinh2001@gmail.com  |
-|                           |                  | b@example.com           |
-|                           |                  | c@example.com           |
-|                           |                  | c@example.com           |
+|                           |                  |     |
+|                           |                  | |
+|                           |                  |        |
 ### Kế hoạch tổng quát
 
 - Tuần 1: Thu thập dữ liệu và nghiên cứu các bài báo liên quan
