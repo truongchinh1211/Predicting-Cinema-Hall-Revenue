@@ -18,4 +18,4 @@ Dự đoán doanh thu rạp chiếu phim: Tiếp cận bằng học máy dựa t
 
 - Tuần 4: Viết báo cáo và hoàn thiện kết quả, Chuẩn bị thuyết trình và tổng kết
 ### Liên kết 
-[Download kế hoạch chi tiết](./schedule.xlsx)
+[Download kế hoạch chi tiết](./Schedule.xlsx)
