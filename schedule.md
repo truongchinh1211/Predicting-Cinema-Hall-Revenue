@@ -14,10 +14,8 @@ Dự đoán doanh thu rạp chiếu phim: Tiếp cận bằng học máy dựa t
 
 - Tuần 2: Thực hiện xử lý, phân tích dữ liệu khám phá (EDA)
 
-- Tuần 3: Xây dựng mô hình máy học và huấn luyện ban đầu
+- Tuần 3: Xây dựng mô hình máy học và huấn luyện ban đầu, Đánh giá mô hình và so sánh các phương pháp
 
-- Tuần 4: Đánh giá mô hình và so sánh các phương pháp
-
-- Tuần 5: Viết báo cáo và hoàn thiện kết quả
-
-- Tuần 6: Chuẩn bị thuyết trình và tổng kết
+- Tuần 4: Viết báo cáo và hoàn thiện kết quả, Chuẩn bị thuyết trình và tổng kết
+### Liên kết 
+[Download kế hoạch chi tiết](./schedule.xlsx)
