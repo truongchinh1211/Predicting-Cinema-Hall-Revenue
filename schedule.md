@@ -6,8 +6,8 @@ Dự đoán doanh thu rạp chiếu phim: Tiếp cận bằng học máy dựa t
 |---------------------------|------------------|---------------------------|
 | Nguyễn Ngọc Trường Chinh  | 3119410046       | nntchinh2001@gmail.com    |
 | Nguyễn Xuân Hiếu          | 3121410196       | nxhieu12072003@gmail.com  |
-|Vũ Mạnh Đạt                | 3123410074       | datvumanh06@gmail.com     |
-|                           |                  |        |
+| Vũ Mạnh Đạt               | 3123410074       | datvumanh06@gmail.com     |
+| Ngô Kim Thạch             | 3121410446       | thngokim21112003@gmai.com |
 ### Kế hoạch tổng quát
 
 - Tuần 1: Thu thập dữ liệu và nghiên cứu các bài báo liên quan
