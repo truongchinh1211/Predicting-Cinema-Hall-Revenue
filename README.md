@@ -8,7 +8,7 @@ Dự án này tập trung vào việc dự đoán doanh thu phòng vé của cá
 Thực hiện phân tích dữ liệu khám phá (EDA) để tìm ra các mối quan hệ và xu hướng giữa doanh thu phòng vé và các đặc trưng của bộ phim, như diễn viên, đạo diễn, đánh giá, thể loại, và ngân sách.
 Trực quan hóa các yếu tố quan trọng để hiểu rõ mối liên hệ giữa chúng với doanh thu phòng vé.
 
-2.Phát Triển Mô Hình:
+2. Phát Triển Mô Hình:
 Áp dụng nhiều mô hình học máy để dự đoán doanh thu phòng vé, bao gồm:
 Hồi quy tuyến tính (Linear Regression)
 Rừng ngẫu nhiên (Random Forest)
