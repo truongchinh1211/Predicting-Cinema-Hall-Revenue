@@ -1,20 +1,29 @@
 # Predicting-Cinema-Hall-Revenue
 ## Tổng quan
-Dự án này tập trung vào việc dự đoán doanh thu của rạp chiếu phim bằng cách sử dụng các kỹ thuật học máy và phân tích dữ liệu hành vi khách hàng. Nghiên cứu sử dụng tập dữ liệu "Cinema Hall Ticket Sales and Customer Behavior" từ Kaggle, chứa thông tin chi tiết về doanh số bán vé, nhân khẩu học của khách hàng và lịch chiếu phim.
-Mục tiêu chính của dự án là xây dựng các mô hình dự đoán doanh thu phòng vé dựa trên các yếu tố như:
-- Số lượng vé bán ra
-- Thể loại phim
-- Thời gian chiếu (ngày thường so với cuối tuần)
-- Nhóm tuổi và thói quen mua vé của khách hàng
-- Các chương trình khuyến mãi và giảm giá
+Dự án này tập trung vào việc dự đoán doanh thu phòng vé của các bộ phim bằng cách sử dụng các kỹ thuật học máy và phân tích dữ liệu từ tập dữ liệu TMDB 5000 Movies Dataset. Tập dữ liệu này chứa thông tin chi tiết về hơn 5000 bộ phim, bao gồm các đặc trưng như ngân sách, doanh thu, thể loại, diễn viên, đạo diễn, đánh giá, thời gian phát hành, và các yếu tố khác. Mục tiêu chính của dự án là xây dựng các mô hình dự đoán doanh thu phòng vé dựa trên các đặc trưng này, từ đó cung cấp những hiểu biết chiến lược về các yếu tố ảnh hưởng đến doanh thu.
 
-Thông qua việc khám phá các biến số này, dự án hướng đến việc xác định các yếu tố chính ảnh hưởng đến doanh thu và cung cấp những hiểu biết dựa trên dữ liệu giúp các nhà quản lý rạp tối ưu hóa chiến lược tiếp thị và lịch chiếu phim.
 
 ## Mục tiêu nghiên cứu
-1. Khám Phá Dữ Liệu và Trực Quan Hóa: Thực hiện phân tích dữ liệu khám phá (EDA) để tìm ra các mối quan hệ và xu hướng giữa doanh số bán vé và hành vi khách hàng.
-2. Phát Triển Mô Hình: Áp dụng nhiều mô hình học máy như Hồi quy tuyến tính (Linear Regression), Cây quyết định (Decision Trees), Rừng ngẫu nhiên (Random Forest), và Gradient Boosted Machines để dự đoán doanh thu phòng vé.
-3. Đánh Giá Mô Hình: So sánh hiệu suất của các mô hình sử dụng các chỉ số như RMSE (Căn bậc hai trung bình bình phương lỗi) và R-squared nhằm xác định phương pháp dự đoán hiệu quả nhất.
-4. Phân Tích Tầm Quan Trọng của Đặc Trưng: Sử dụng các kỹ thuật như SHAP để hiểu rõ những yếu tố nào có tác động lớn nhất đến dự đoán doanh thu.
+1. Khám Phá Dữ Liệu và Trực Quan Hóa:
+Thực hiện phân tích dữ liệu khám phá (EDA) để tìm ra các mối quan hệ và xu hướng giữa doanh thu phòng vé và các đặc trưng của bộ phim, như diễn viên, đạo diễn, đánh giá, thể loại, và ngân sách.
+Trực quan hóa các yếu tố quan trọng để hiểu rõ mối liên hệ giữa chúng với doanh thu phòng vé.
 
+2.Phát Triển Mô Hình:
+Áp dụng nhiều mô hình học máy để dự đoán doanh thu phòng vé, bao gồm:
+Hồi quy tuyến tính (Linear Regression)
+Rừng ngẫu nhiên (Random Forest)
+Gradient Boosting Machines (XGBoost, LightGBM)
+
+3. Đánh Giá Mô Hình:
+So sánh hiệu suất của các mô hình sử dụng các chỉ số đánh giá như RMSE (Căn bậc hai trung bình bình phương lỗi), MAE (Sai số tuyệt đối trung bình), và R² (R-squared).
+Mục tiêu là xác định mô hình dự đoán hiệu quả nhất dựa trên dữ liệu thực tế từ TMDB.
+
+4. Phân Tích Tầm Quan Trọng của Các Đặc Trưng:
+Sử dụng các kỹ thuật như SHAP (Shapley Additive Explanations) để hiểu rõ các đặc trưng nào có tác động lớn nhất đến dự đoán doanh thu.
+Các đặc trưng như diễn viên chính, đạo diễn, thể loại phim, và đánh giá sẽ được phân tích để xác định mức độ ảnh hưởng của chúng đến doanh thu phòng vé.
 ## Ý nghĩa
-Dự đoán chính xác doanh thu rạp chiếu phim đóng vai trò quan trọng trong việc tối ưu hóa chiến lược giá vé, nâng cao hiệu quả tiếp thị và cải thiện trải nghiệm khách hàng. Dự án này không chỉ hướng đến việc xây dựng các mô hình dự đoán hiệu quả mà còn làm sáng tỏ mối quan hệ nhân quả giữa hành vi khách hàng và doanh thu, cung cấp những thông tin hữu ích cho ngành công nghiệp rạp chiếu phim.
+Dự đoán chính xác doanh thu phòng vé là một phần quan trọng trong việc tối ưu hóa chiến lược phân phối phim, đặc biệt trong việc quản lý ngân sách, tiếp thị và quản lý khán giả. Các nhà sản xuất và nhà phân phối phim có thể sử dụng mô hình dự đoán này để đưa ra các quyết định về việc chọn diễn viên, đạo diễn, thể loại phim, và chiến lược phát hành phù hợp.
+
+Dự án này không chỉ giúp xác định yếu tố quan trọng nhất ảnh hưởng đến doanh thu mà còn cung cấp công cụ hỗ trợ ra quyết định cho ngành công nghiệp điện ảnh. Những thông tin này có thể giúp các nhà làm phim dự báo chính xác và tối ưu hóa chiến lược sản xuất và phân phối, từ đó tăng trưởng doanh thu cho các bộ phim.
+
+
